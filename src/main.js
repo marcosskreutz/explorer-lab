@@ -18,7 +18,7 @@ function setCardType(type) {
   ccLogo.setAttribute("src", `cc-${type}.svg`)
 }
 
-setCardType("nubank")
+setCardType("default")
 
 globalThis.setCardType = setCardType
 
